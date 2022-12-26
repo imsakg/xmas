@@ -9,6 +9,7 @@ edition = "2021"
 thiserror = "1.0.0"
 tokio = {version = "1.22.0", features = ["full"]}
 clap = {version = "4.0.0", features = ["cargo", "derive"]}
+rand = "0.8.5"
 
 [dev-dependencies]
 anyhow = "1.0.0"
